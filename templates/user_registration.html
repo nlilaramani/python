@@ -1,0 +1,27 @@
+<html>
+<head>
+	<style>
+		body {
+			background-color: lightblue;
+			font-family: verdana;
+			font-size: 16;
+			text-align: center;
+			align: center;
+		}
+	</style>
+</head>
+<body>
+<h1>User Registration Form</h1>
+<p>Please enter your profile details below </p>
+<form action="/users/register" method="post">
+<div>
+<div>First name:<input type="text" name="fname"/></div><br/>
+<div>Last name:<input name="lname" type="text"/></div><br/>
+<div>Email:<input name="email" type="email"/></div><br/>
+<div>User name:<input type="text" name="username"/></div><br/>
+<div>Password:<input name="password" type="password"/></div><br/>
+<input value="Register" type="submit">
+</div>
+</form>
+</body>
+</html>
