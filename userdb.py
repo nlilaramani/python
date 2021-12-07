@@ -43,4 +43,4 @@ def register(fname,lname,email,username,pwd):
         cursor.close()
         conn.close()
     return result
- 
+        
